@@ -1,0 +1,243 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(0, 0%, 98%);
+    font-family: 'Poppins', sans-serif;
+}
+
+main {
+    margin: 1.25rem;
+    text-align: center;
+}
+
+h2 {
+    font-size: 1.2rem;
+    color: hsl(234, 12%, 34%);
+    margin-top: 3.2rem;
+    font-weight: 300;
+}
+
+h1 {
+    font-size: 1.26rem;
+    color: hsl(234, 12%, 34%);
+    font-weight: 600;
+}
+
+.paragraph {
+    font-size: .85rem;
+    color: hsl(229, 6%, 66%);
+}
+
+h3 {
+    font-size: 1rem;
+    color: hsl(234, 12%, 34%);
+    font-weight: 600;
+    text-align: start;
+}
+
+.card-body p {
+    font-size: .8rem;
+    color: hsl(229, 6%, 66%);
+    text-align: start;
+
+}
+
+.card {
+    margin: 0;
+    margin-bottom: 1.25rem;
+    border: none;
+    background-color: white;
+    box-shadow: 0px 10px 8px -3px rgba(205, 204, 204, 0.82);
+    -webkit-box-shadow: 0px 10px 8px -3px rgba(205, 204, 204, 0.82);
+    -moz-box-shadow: 0px 10px 8px -3px rgba(205, 204, 204, 0.82);
+
+}
+
+.card1 {
+    border-top: .2rem solid hsl(180, 62%, 55%);
+    margin-top: 2.5rem;
+}
+
+.card2 {
+    border-top: .2rem solid hsl(0, 78%, 62%);
+}
+
+.card3 {
+    border-top: .2rem solid hsl(34, 97%, 64%);
+}
+
+.card4 {
+    border-top: .2rem solid hsl(212, 86%, 64%);
+    margin-bottom: 2rem;
+}
+
+.icon {
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    grid-template-rows: 50% 50%;
+}
+
+.icone {
+    width: 2.75rem;
+    align-self: flex-start;
+
+    grid-column: 5/6;
+}
+
+@media screen and (min-width:1025px) {
+    
+    main {
+        
+        height: 100vh;
+    }
+    .section1 {
+        display: grid;
+        place-items: center;
+        
+    }
+    .article1 {
+        
+        width: 35vw;
+        
+    }
+    h2 {
+        font-size: 1.85rem;
+        margin-top: 3.5rem;
+        font-weight: 300;
+
+    }
+
+    h1 {
+        font-size: 1.85rem;
+        font-weight: 600;
+        
+    }
+
+    .paragraph {
+        font-size: .9rem;
+        margin-bottom: 2.5rem;
+    }
+
+    .card {
+        margin-top: 0;
+        width: 19rem;
+        height: 12rem;
+    }
+
+    .section2 {
+        
+        display: grid;
+        grid-template-columns: 33% 33% 33%;
+        grid-template-rows: 25% 25% 25% 25%;
+        
+    }
+
+    .card1 {
+        
+        margin-left: 10rem;
+        grid-area: 2 / 1 / 4 / 2;
+
+    }
+
+    .card2 {
+        grid-area: 1 / 2 / 3 / 3;
+        margin-left: 5.75rem;
+       
+    }
+
+    .card3 {
+        margin-left: 5.75rem;
+        grid-area: 3 / 2 / 5 / 3;
+       
+    }
+
+    .card4 {
+        grid-area: 2 / 3 / 4 / 5;
+        margin-right: 3.25rem;
+    }
+    .icone {
+        width: 3rem;
+    }
+}
+
+@media screen and (min-width:1024px) {
+    
+    main {
+        
+        height: 100vh;
+    }
+    .section1 {
+        display: grid;
+        place-items: center;
+        
+    }
+    .article1 {
+        
+        width: 35vw;
+        
+    }
+    h2 {
+        font-size: 1.85rem;
+        margin-top: 3.5rem;
+        font-weight: 300;
+
+    }
+
+    h1 {
+        font-size: 1.85rem;
+        font-weight: 600;
+        
+    }
+
+    .paragraph {
+        font-size: .9rem;
+        margin-bottom: 2.5rem;
+    }
+
+    .card {
+        margin-top: 0;
+        width: 19rem;
+        height: 12rem;
+    }
+
+    .section2 {
+        
+        display: grid;
+        grid-template-columns: 33% 33% 33%;
+        grid-template-rows: 25% 25% 25% 25%;
+        
+    }
+
+    .card1 {
+        
+        
+        grid-area: 2 / 1 / 4 / 2;
+
+    }
+
+    .card2 {
+        grid-area: 1 / 2 / 3 / 3;
+       
+       
+    }
+
+    .card3 {
+       
+        grid-area: 3 / 2 / 5 / 3;
+       
+    }
+
+    .card4 {
+        grid-area: 2 / 3 / 4 / 5;
+        
+    }
+    .icone {
+        width: 3rem;
+    }
+}
